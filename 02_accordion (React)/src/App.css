@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+

@@ -1,0 +1,21 @@
+.text-section{
+    display: flex;
+    justify-content: center;
+}
+
+.text-section button{
+    margin-left: 20px;
+    padding: 10px;
+    background-color: gray;
+    border: none;
+    border-radius: 100%;
+}
+
+.text-section h1{
+    margin-bottom: 15px;
+}
+
+.paragraph-section{
+    text-align: center;
+    font-size: 20px;
+}

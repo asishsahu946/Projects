@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shoe Company</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body class="bg-black text-white">
+   <header class="md:px-12 px-4 flex items-center justify-between fixed w-full max-w-[1440px] left-[50%] -translate-x-[50%]">
+    <a href="">
+        <img class="w-24 md:w-32" src="Image/logo.png" alt="logo">
+    </a>
+    <nav class=" hidden md:block space-x-6 lg:space-x-8 lg:text-2xl  ">
+        <a class="font-bold" href="#">Home</a>
+        <a class="font-bold" href="#how-it-works">How it Works?</a>
+        <a class="font-bold" href="#">About</a>
+        <a class="font-bold" href="#">Testimonials</a>
+        <a class="font-bold" href="#">Contact Us</a>
+    </nav>
+    <button class="text-5xl md:hidden">☰</button>
+   </header>
+   <section id="hero" class="bg-[url('./image/hero-background.png')] md:bg-contain bg-cover bg-no-repeat bg-right pt-36 px-6 md:px-12 max-w-[1440px] mx-auto">
+    <div  class="flex flex-col md:flex-row md:items-center justify-between max-w-6xl  ">
+        <h1 class="text-4xl md:text-6xl font-bold leading-[48px] md:leading-[72px]">THE <br> SHOE <br> COMPANY</h1>
+        <div>
+            <img class="w-full max-w-xl" src="Image/hero-image.png" alt="white shoe image">
+        </div> 
+    </div>
+   </section>
+   <section id="how-it-works" class="section-container pt-32">
+    <h2 class="text-center text-3xl font-bold max-w-md mx-auto pt-8">Have they finally made the perfect workout shoe?</h2>
+    <div class="max-w-2xl mx-auto mt-60 xl:mt-12 relative">
+        <img class="w-full max-w-2xl" src="./Image/how-it-works.png" alt="shoe">
+        <div class="max-w-xs absolute top-0 -translate-x-full">
+            <h3 class="text-2xl font-bold">THE HEEL</h3>
+            <p class="text-lg">The heel is well-built, has appropiate elevation and is not too rigid.</p>
+            <img class="ml-auto" src="Image/arrow-1.png" alt="arrow-1">
+        </div>
+        <div class="max-w-xs absolute top-0 -right-60">
+            <img class="-ml-32" src="Image/arrow-2.png" alt="arrow-2">
+            <h3 class="text-2xl font-bold -mt-20">THE FRONT</h3>
+            <p class="text-lg">The front is comfortable and adjusts well to the shape of your foot.</p>
+        </div>
+        <div class="max-w-xs absolute -bottom-20 ">
+            <img class="ml-auto -mb-10" src="Image/arrow-3.png" alt="arrow-3">
+            <h3 class="text-2xl font-bold">TRACTION</h3>
+            <p class="text-lg">The shoe has good traction and doesn't slip easily.</p>
+        </div>
+    </div>
+   </section>
+</body>
+</html>
